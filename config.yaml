@@ -3,6 +3,7 @@ languageCode: "zh"
 title: '木杉'
 paginate: 5 # 每页展示数目
 theme: PaperMod
+publishDir: docs # 默认叫 publish，但 github pages 只能只能识别 / /docs 建议使用 docs
 
 enableRobotsTXT: true
 buildDrafts: false
