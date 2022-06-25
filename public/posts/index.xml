@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 木杉</title>
+    <link>https://blog.mushan.top/posts/</link>
+    <description>Recent content in Posts on 木杉</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 25 Jun 2022 17:06:57 +0800</lastBuildDate><atom:link href="https://blog.mushan.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>https://blog.mushan.top/posts/hello/</link>
+      <pubDate>Sat, 25 Jun 2022 17:06:57 +0800</pubDate>
+      
+      <guid>https://blog.mushan.top/posts/hello/</guid>
+      <description>你好 hugo 这是一个示例文档
+测试 哈哈哈</description>
+    </item>
+    
+  </channel>
+</rss>
