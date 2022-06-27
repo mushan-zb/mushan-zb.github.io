@@ -1,0 +1,31 @@
+{{- $scratch := newScratch }}
+
+<!-- 创建时间 -->
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (printf "创建：<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "2006-01-02" site.Params.DateFormat)))) }}
+{{- end }}
+
+<!-- 最近一次更新时间 -->
+{{- if (.Param "ShowLastMod") -}}
+{{- $scratch.Add "meta" (slice (printf "更新：%s" (.Lastmod.Format (default "2006-01-02" site.Params.DateFormat)))) }}
+{{- end }}
+
+<!-- 阅读所需时间 -->
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (printf "时长：%d 分钟" .ReadingTime)) }}
+{{- end }}
+
+<!-- 总字数 -->
+{{- if (.Param "ShowWordCount") -}}
+{{- $scratch.Add "meta" (slice  (printf "%d 字" .WordCount)) }}
+{{- end }}
+
+<!-- 作者 -->
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+
+<!-- 分隔符 -->
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;|&nbsp;" -}}
+{{- end -}}

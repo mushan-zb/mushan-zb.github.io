@@ -5,6 +5,34 @@
     <link>https://blog.mushan.top/tags/</link>
     <description>Recent content in Tags on 木杉</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="https://blog.mushan.top/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    <lastBuildDate>Mon, 27 Jun 2022 09:20:17 +0800</lastBuildDate><atom:link href="https://blog.mushan.top/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ccpc</title>
+      <link>https://blog.mushan.top/tags/ccpc/</link>
+      <pubDate>Mon, 27 Jun 2022 09:20:17 +0800</pubDate>
+      
+      <guid>https://blog.mushan.top/tags/ccpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oj</title>
+      <link>https://blog.mushan.top/tags/oj/</link>
+      <pubDate>Mon, 27 Jun 2022 09:20:17 +0800</pubDate>
+      
+      <guid>https://blog.mushan.top/tags/oj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sdut</title>
+      <link>https://blog.mushan.top/tags/sdut/</link>
+      <pubDate>Mon, 27 Jun 2022 09:20:17 +0800</pubDate>
+      
+      <guid>https://blog.mushan.top/tags/sdut/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,14 +1,19 @@
 baseURL: "https://blog.mushan.top/"
 languageCode: "zh"
 title: '木杉'
-paginate: 5 # 每页展示数目
+paginate: 10 # 每页展示数目
 theme: PaperMod
 publishDir: docs # 默认叫 publish，但 github pages 只能只能识别 / /docs 建议使用 docs
 
 enableRobotsTXT: true
+enableInlineShortcodes: true # 允许内联短码视频
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
+# Copyright: 木杉 # 版权信息
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -19,9 +24,22 @@ params:
   keywords: [木杉, mushan, 博客, Blog, github pages, PaperMod]
 
   author: 木杉
-  DateFormat: "2006-01-02"
+  dateFormat: "2006-01-02"
+  showWordCounts: true # 字数
+  showReadingTime: true # 阅读时长
+  showLastmod: true # 最近更新时间
+  visitCount: true # 统计浏览量
+  showShareButtons: false # 分享按钮
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  showBreadCrumbs: true # 显示面包屑导航
+  showPostNavLinks: true
+  showCodeCopyButtons: true
+
+  showToc: true # 显示目录
+  tocOpen: true # 自动展开目录
+
+  # comments: true # 开启评论功能
 
   # profile-mode
   profileMode:
@@ -44,12 +62,31 @@ params:
     - name: QQ
       url: "img/qq.png"
     - name: WeChat
-      url: "img/wechat.png"
-    - name: tiktok
-      url: "img/tiktok.png"
+      url: "images/wechat15x15.jpg"
+    # - name: tiktok
+    #   url: "img/tiktok.png"
     - name: email
       url: "mailto:mushan.zb@gmail.com"
-  
+
+  # fuseOpts:
+  #   isCaseSensitive: false
+  #   shouldSort: true
+  #   location: 0
+  #   distance: 1000
+  #   threshold: 1
+  #   minMatchCharLength: 0
+  #   keys: ["title", "permalink", "summary"]
+
+# markup:
+#   highlight:
+#     codeFences: true  # 代码块围栏
+#     lineNos: true   # 显示行号
+    # anchorLineNos: false  # 行号锚点（特别丑！）
+    # guessSyntax: true  # 语法猜测
+    # noClasses: true  # true 比较省事，false 需要生成 CSS，参考：https://gohugo.io/content-management/syntax-highlighting/#generate-syntax-highlighter-css
+    # style: dracula
+
+
 menu:
   main:
     - identifier: search
@@ -91,3 +128,22 @@ menu:
     #   name: 🏖记录生活
     #   url: posts/life
     #   weight: 6
+
+# 搜索页配置
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+permalinks:
+  post: "/:title/"
+  # post: "/:year/:month/:day/:title/" # 链接格式，默认是拼接标题
+
+minify:
+  disableXML: true # 不生产 xml 文件
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
