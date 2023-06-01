@@ -1,7 +1,7 @@
 baseURL: "https://blog.mushan.top/"
 
 # 指定静态网站存放位置
-publishDir: docs
+# publishDir: docs
 
 # 主题
 theme: LoveIt
