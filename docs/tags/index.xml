@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - </title>
+        <link>https://blog.mushan.top/tags/</link>
+        <description>Tags - Tag - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 27 Jun 2022 09:20:17 &#43;0800</lastBuildDate><atom:link href="https://blog.mushan.top/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>ccpc</title>
+    <link>https://blog.mushan.top/tags/ccpc/</link>
+    <pubDate>Mon, 27 Jun 2022 09:20:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.mushan.top/tags/ccpc/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>oj</title>
+    <link>https://blog.mushan.top/tags/oj/</link>
+    <pubDate>Mon, 27 Jun 2022 09:20:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.mushan.top/tags/oj/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>sdut</title>
+    <link>https://blog.mushan.top/tags/sdut/</link>
+    <pubDate>Mon, 27 Jun 2022 09:20:17 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.mushan.top/tags/sdut/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
