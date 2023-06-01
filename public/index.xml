@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>https://blog.mushan.top/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 29 May 2023 23:43:05 &#43;0800</lastBuildDate>
+            <atom:link href="https://blog.mushan.top/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First_post</title>
+    <link>https://blog.mushan.top/posts/first_post/</link>
+    <pubDate>Mon, 29 May 2023 23:43:05 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://blog.mushan.top/posts/first_post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>SDUTACM 14届校赛总结</title>
+    <link>https://blog.mushan.top/posts/sdutacm_14/</link>
+    <pubDate>Mon, 27 Jun 2022 09:20:17 &#43;0800</pubDate>
+    <author>木杉</author>
+    <guid>https://blog.mushan.top/posts/sdutacm_14/</guid>
+    <description><![CDATA[SDUTACM 校赛总结 山东理工大学每年都会定期组织一次校赛，到今年为止共组织了 14 届校赛比拼。本文是对 14 届校赛中的一些规则和前期准备事项的总结和记录 奖项设]]></description>
+</item>
+</channel>
+</rss>
