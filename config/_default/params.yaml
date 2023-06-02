@@ -307,7 +307,7 @@ page:
     # Mix: false
   # 评论系统设置
   comment:
-    enable: false
+    enable: true
     # Disqus 评论系统设置
     # disqus:
     #   enable: false
@@ -315,11 +315,11 @@ page:
     #   shortname: ""
     # Gitalk 评论系统设置
     gitalk:
-      enable: false
-      owner: ""
-      repo: ""
-      clientId: ""
-      clientSecret: ""
+      enable: true
+      owner: "mushan-zb"
+      repo: "mushan-zb.github.io"
+      clientId: "530a27e2e7c66133b4ea"
+      clientSecret: "f8d3909650ee2a364ca9a0067be5252483ca5563"
     # Valine 评论系统设置
     # valine:
     #   enable: false
