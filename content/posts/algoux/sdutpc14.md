@@ -1,7 +1,6 @@
 ---
 title: "SDUTACM 14届校赛总结"
 date: 2022-06-27T09:20:17+08:00
-lastmod: 2022-06-27T09:20:17+08:00
 author: "木杉"
 
 categories: 

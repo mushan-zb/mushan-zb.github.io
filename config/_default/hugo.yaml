@@ -88,16 +88,16 @@ ignoreErrors:
 outputs:
   home:
     - HTML
-    # - RSS
-    # - JSON
+    - RSS
+    - JSON
   page:
     - HTML
     - MarkDown
   section:
     - HTML
-    # - RSS
+    - RSS
   taxonomy:
     - HTML
-    # - RSS
+    - RSS
   taxonomyTerm:
     - HTML
