@@ -1,6 +1,6 @@
 ---
 title: "玩转django"
-date: 2023-06-06T01:05:21+08:00
+date: 2019-02-15T14:00:00+08:00
 
 author: "木杉"
 categories: 
