@@ -1,0 +1,103 @@
+baseURL: "https://blog.mushan.top/"
+
+# 指定静态网站存放位置
+# publishDir: docs
+
+# 主题
+theme: LoveIt
+
+# 网站标题
+title: 木杉
+
+defaultContentLanguage: zh
+languageCode: zh
+languageName: "简体中文"
+# 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
+# languages:
+#   zh:
+#     # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
+#     languageName: "简体中文"
+#     weight: 1
+#   en:
+#     languageName: "English"
+#     weight: 2
+# 是否包括中日韩文字
+hasCJKLanguage: true
+
+# 作者配置
+author:
+  name: 木杉
+  email: "mushan.zb@gmail.com"
+  link: "https://blog.mushan.top/"
+
+# 默认每页列表显示的文章数目
+paginate: 10
+
+# 是否使用 robots.txt
+enableRobotsTXT: true
+# 是否使用 git 信息
+# enableGitInfo: true
+# 是否使用 emoji 代码
+enableEmoji: true
+
+# 版权描述，仅仅用于 SEO
+copyright: "2022 - 2023 木杉"
+
+# 谷歌分析代号 [UA-XXXXXXXX-X]
+# googleAnalytics: ""
+
+# 忽略一些构建错误
+ignoreErrors:
+  - error-remote-getjson
+  - error-missing-instag
+
+# 网站地图配置
+# sitemap:
+#   changefreq: weekly
+#   filename: sitemap.xml
+#   priority: 0.5
+
+# Permalinks 配置
+# Permalinks:
+#   # posts = ":year/:month/:filename"
+#   posts: :filename
+
+# 隐私信息配置
+# privacy:
+#   #  Google Analytics 相关隐私 (被 params.analytics.google 替代)
+#   googleAnalytics: {}
+#   twitter:
+#     enableDNT: true
+#   youtube:
+#     privacyEnhanced: true
+
+# 用于输出 Markdown 格式文档的设置
+# mediaTypes:
+#   text/plain:
+#     suffixes:
+#       - md
+
+# 用于输出 Markdown 格式文档的设置
+# outputFormats:
+#   MarkDown:
+#     mediaType: text/plain
+#     isPlainText: true
+#     isHTML: false
+
+# 用于 Hugo 输出文档的设置
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - MarkDown
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
+  taxonomyTerm:
+    - HTML
