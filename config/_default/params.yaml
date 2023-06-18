@@ -39,7 +39,7 @@ footer:
   # 网站创立年份
   since: 2020
   # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-  icp: "鲁ICP备18021776号"
+  icp: <a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备18021776号</a>
 
 # Section (所有文章) 页面配置
 section:
@@ -48,7 +48,7 @@ section:
   # 日期格式 (月和日)
   dateFormat: 01-02
   # RSS 文章数目
-  # rss: 10
+  rss: 10
 
 # List (目录或标签) 页面配置
 list:
@@ -57,7 +57,7 @@ list:
   # 日期格式 (月和日)
   dateFormat: 01-02
   # RSS 文章数目
-  # rss: 10
+  rss: 10
 
 # 搜索配置
 search:
@@ -126,7 +126,7 @@ page:
   # 是否使用 fontawesome 扩展语法
   fontawesome: false
   # 是否在文章页面显示原始 Markdown 文档链接
-  linkToMarkdown: true
+  linkToMarkdown: false
   # 是否在 RSS 中显示全文内容
   rssFullText: false
   # 目录配置
@@ -176,14 +176,6 @@ page:
     #   # 可以在你的项目下相同路径存放你自己的数据文件:
     #   # "assets/lib/valine/emoji/"
     #   emoji: ""
-  # 页面 SEO 配置
-  # seo:
-  #   # 图片 URL
-  #   images: []
-  #   # 出版者信息
-  #   publisher:
-  #     name: ""
-  #     logoUrl: ""
 
 #  TypeIt 配置
 typeit:
@@ -195,21 +187,6 @@ typeit:
   cursorChar: "|"
   # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
   duration: 5000
-
-# 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
-# verification:
-#   google: ""
-#   bing: ""
-#   yandex: ""
-#   pinterest: ""
-#   baidu: ""
-
-# 网站 SEO 配置
-# seo:
-#   # 图片 URL
-#   image: ""
-#   # 缩略图 URL
-#   thumbnailUrl: ""
 
 # 网站分析配置
 # analytics:
